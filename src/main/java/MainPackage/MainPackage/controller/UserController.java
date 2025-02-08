@@ -11,9 +11,9 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("/test-connection")
-    public String testDatabase() {
-        userService.createSampleUser();
-        return "Database connected, and user added!";
-    }
+   // @GetMapping("/test-connection")
+   // public String testDatabase() {
+  //      userService.createSampleUser();
+   //     return "Database connected, and user added!";
+ //   }
 }

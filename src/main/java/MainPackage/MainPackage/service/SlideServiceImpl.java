@@ -1,4 +1,4 @@
-package MainPackage.service;
+/*package MainPackage.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,7 @@ public class SlideServiceImpl implements SlideService {
     private UserRepository userRepository;
 
     @Override
-    public Slides uploadSlide(MultipartFile file, Long userId) {
+   public Slides uploadSlide(MultipartFile file, Long userId) {
         // Validate user
         User user = userRepository.findById(userId)
             .orElseThrow(() -> new RuntimeException("User not found"));
@@ -75,4 +75,4 @@ public class SlideServiceImpl implements SlideService {
       //      new Question("Explain the concept of inheritance.", "ACTIVE_RECALL")
    //     );
     }
-}
+}*/

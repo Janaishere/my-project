@@ -1,5 +1,6 @@
 package MainPackage.service;
 
+import MainPackage.model.User;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,7 @@ import MainPackage.repository.SolutionRepository;
 import MainPackage.repository.UserRepository;
 
 @Service
-public abstract class SolutionServiceImpl implements SolutionService {
+public  class SolutionServiceImpl implements SolutionService {
 
     @Autowired
     private SolutionRepository solutionRepository;
